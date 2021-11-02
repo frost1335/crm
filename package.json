@@ -1,0 +1,19 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm for team",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "mongoose": "^6.0.12"
+  }
+}
